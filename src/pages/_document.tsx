@@ -3,7 +3,7 @@ import Document, {Html, Head, Main, NextScript} from 'next/document';
 export default class MyDocument extends Document {
     render() {
         return (
-            <html>
+            <Html>
                 <Head>
                     <link rel="shortcut icon" href="favicon.png" type="image/png"/>
                     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -13,7 +13,7 @@ export default class MyDocument extends Document {
                     <Main />
                     <NextScript />
                 </body>
-            </html>
+            </Html>
         )
     }
 }
