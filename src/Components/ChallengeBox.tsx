@@ -4,7 +4,7 @@ import styles from '../styles/components/ChallengeBox.module.css';
 
 export function ChallengeBox() {
     const contextData = useContext(ChallengesContext)
-
+    
     const hasActiveChallenge = true;
 
     return (
